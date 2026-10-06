@@ -1,84 +1,73 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>Mon site</title>
 
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: Arial, sans-serif;
-        }
-
         body {
-            background: #f7f4ff;
-            color: #29223d;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f3e8ff;
+            text-align: center;
         }
 
         header {
-            background: linear-gradient(135deg, #7c5cff, #b56cff);
+            background: #8b5cf6;
             color: white;
-            text-align: center;
-            padding: 70px 20px;
+            padding: 60px 20px;
         }
 
-        header h1 {
+        h1 {
             font-size: 45px;
-            margin-bottom: 10px;
         }
 
-        header p {
-            font-size: 19px;
-        }
-
-        nav {
+        .box {
             background: white;
-            text-align: center;
-            padding: 18px;
-            box-shadow: 0 2px 10px #ddd;
-        }
-
-        nav a {
-            color: #7c5cff;
-            text-decoration: none;
-            margin: 0 15px;
-            font-weight: bold;
-        }
-
-        section {
-            max-width: 900px;
+            width: 80%;
+            max-width: 600px;
             margin: 40px auto;
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 5px 15px #ccc;
+        }
+
+        button {
+            background: #8b5cf6;
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 10px;
+            font-size: 16px;
+        }
+
+        footer {
+            margin-top: 50px;
+            background: #222;
+            color: white;
             padding: 20px;
         }
+    </style>
+</head>
 
-        h2 {
-            text-align: center;
-            color: #7c5cff;
-            margin-bottom: 25px;
-        }
+<body>
 
-        .cards {
-            display: flex;
-            gap: 20px;
-            justify-content: center;
-            flex-wrap: wrap;
-        }
+    <header>
+        <h1>Bienvenue 👋</h1>
+        <p>Mon premier site avec GitHub</p>
+    </header>
 
-        .card {
-            background: white;
-            width: 250px;
-            padding: 25px;
-            border-radius: 15px;
-            text-align: center;
-            box-shadow: 0 5px 15px #ddd;
-        }
+    <div class="box">
+        <h2>À propos de moi</h2>
+        <p>Je suis une étudiante intéressée par le développement web.</p>
 
-        .card h3 {
-            margin-bottom: 10px;
-            color: #b056ff;
-        }
+        <button>Découvrir</button>
+    </div>
 
-        .
+    <footer>
+        <p>© 2026 Mon Site</p>
+    </footer>
+
+</body>
+</html>
